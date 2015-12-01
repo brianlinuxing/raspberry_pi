@@ -1,0 +1,38 @@
+# interfaces(5) file used by ifup(8) and ifdown(8)
+
+# Please note that this file is written to be used with dhcpcd
+# For static IP, consult /etc/dhcpcd.conf and 'man dhcpcd.conf'
+
+# Include files from /etc/network/interfaces.d:
+source-directory /etc/network/interfaces.d
+#
+#-------------
+#Edit history:
+#01 30/11/15 Initial changes for Pi Zero. Using SiteCom USB & Belkin RJ45 adapter
+#02 01/12/15 Tidied up.
+#
+
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+
+auto wlan0 
+iface wlan0 inet dhcp
+
+auto wlan1 
+iface wlan1 inet dhcp
+
+#----
+
+allow-hotplug eth0
+iface eth0 inet dhcp
+
+allow-hotplug wlan0
+iface wlan0 inet dhcp
+    wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+
+allow-hotplug wlan1
+iface wlan1 inet dhcp
+    wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf

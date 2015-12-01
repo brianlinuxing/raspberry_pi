@@ -1,0 +1,71 @@
+ifconfig
+dmesg -T
+date
+ifconfig
+dmesg -T
+ifconfig
+top
+dmesg
+sudo su
+ls
+halt
+sudo su
+dmesg -T
+ifconfig
+dmesg -T
+ifconfig
+sudo su
+ifconfig
+dmesg -T
+halt
+sudo halt
+ifconfig
+ping 192.168.0.1
+sudo ping 192.168.0.1
+halt
+sudo halt
+top
+sudo su
+top
+sudo su
+sudo ping 192.168.0.1
+/usr/games/eboard
+df -h
+sudo su
+ls
+git clone pizero_setup
+git create pizero_setup
+mkdir pizero_setup
+cd pizero_setup
+ls /etc/ -rtlc
+ls /etc/interfaces
+ls /etc/network
+ls /etc/network/interfaces
+more /etc/network/interfaces
+nano /etc/network/interfaces
+sudo nano /etc/network/interfaces
+more /etc/network/interfaces
+git add /etc/network/interfaces
+git init
+git add /etc/network/interfaces
+sudo git add /etc/network/interfaces
+cp /etc/network/interfaces .
+more  /etc/network/interfaces
+more /etc/wpa_supplicant/wpa_supplicant.conf
+sudo reboot
+sudo su
+sudo su
+ifconfig
+halt
+sudo halt
+top
+ls
+cd pizero_setup
+ls
+more interfaces
+sudo more /etc/wpa_supplicant/wpa_supplicant.conf
+sudo cp /etc/wpa_supplicant/wpa_supplicant.conf .
+ls
+
+cd ..
+ls

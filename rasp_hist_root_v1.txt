@@ -1,0 +1,29 @@
+apt-get update
+apt-get dist-upgrade
+apt-cache search firmware
+apt-cache search firmware cards
+apt-cache search firmware cards | sort
+apt-cache search firmware wireless | sort
+apt-cache search firmware | sort
+ifconfig
+apt-get -V install firmware-linux
+df -h
+top
+ls /usr/bin/sen*
+ls /usr/sbin/sen*
+apt-cache search sensor
+apt-cache search sensor | sort
+apt-get -V install firmware-adi firmware-atheros firmware-bnx2 firmware-bnx2x firmware-brcm80211 firmware-crystalhd firmware-intelwimax firmware-ipw2x00 firmware-iwlwifi firmware-libertas firmware-ralink firmware-realtek firmware-ti-connectivity firmware-zd1211 
+ifconfig
+nano /etc/interfaces
+nano /etc/network/interfaces
+#nano /etc/network/interfaces
+cd /etc/network/
+cp /etc/network/interfaces /etc/network/interfaces.old1
+nano /etc/network/interfaces
+more /etc/network/interfaces
+cd /etc/wpa_supplicant/
+ls
+cp wpa_supplicant.conf wpa_supplicant.conf_old1
+nano wpa_supplicant.conf
+history
